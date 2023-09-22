@@ -1,0 +1,23 @@
+{
+	"name": "smart-contract",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"chain": "npx hardhat node",
+		"compile": "npx hardhat compile",
+		"deploy": "npx hardhat run scripts/deploy.ts --network localhost"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@nomicfoundation/hardhat-toolbox": "^3.0.0",
+		"hardhat": "^2.17.3",
+		"@typescript-eslint/eslint-plugin": "^5.60.0",
+		"@typescript-eslint/parser": "^5.60.0",
+		"eslint": "^8.43.0",
+		"eslint-plugin-node": "^11.1.0",
+		"prettier": "^2.8.8"
+	}
+}
